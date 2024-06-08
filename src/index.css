@@ -1,0 +1,53 @@
+ @import url("https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap");
+
+* {
+  font-family: "Sedan SC", serif;
+  font-style: normal;
+  font-size: 20px;
+}
+.navbar{
+    margin-top: 5px;
+    border-bottom: lightgrey   solid 1px;
+    background: #FFFFFF;
+	height: auto;
+	border-radius: 10px;
+
+}
+.nav-link{
+    color: black;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    padding: 10px 24px !important;
+    line-height: 20px;
+}
+.nav-link:hover,
+.nav-link:active {
+    color: #0aaa01 !important;
+    border-bottom: 2px solid #0aaa01;
+}
+.card{
+    font-family: 'dm sans',Sans-serif;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+    cursor: pointer;
+}
+.card:hover{
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.46);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.46);
+}
+.card-img-top{
+    height: 180px !important;
+}
+.card-title{
+    color: #101010 !important;
+    font-size: 21px;
+}
+.card-text{
+    margin: 0;
+    margin-bottom: 6px;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #777;
+}
